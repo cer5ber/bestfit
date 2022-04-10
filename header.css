@@ -1,0 +1,43 @@
+.menu{
+    margin-left: 0px;
+}
+.callback{
+    margin-left: 0px;
+}
+nav{
+    position: absolute;
+    margin-left: 300px;
+}
+.profile{
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-family: monseratVAR;
+    
+}
+.sign{
+    margin-left: 250px;
+}
+.cart{
+    margin-left: 200px;
+    color: #fff;
+    text-decoration: none;
+    font-family: monseratVAR;
+    position: absolute;
+}
+
+.profile:hover
+{
+    opacity: 1;
+    color: red;
+    transition: all 0.2s ease-out;
+    transform: scale(1.01);
+}
+
+.count:hover
+{
+    opacity: 1;
+    color: red;
+    transition: all 0.2s ease-out;
+    transform: scale(1.01);
+}

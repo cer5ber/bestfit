@@ -1,0 +1,268 @@
+*
+{
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+header
+{
+  background: #1563F1;
+  height: 90px;
+  width: 1600px;
+}
+.container
+{
+  width: 1400px;
+  margin: 0 auto;
+}
+.logo
+{
+  float: left;
+  padding-top: 20px;
+}
+
+
+nav {
+  float: right;
+  padding-top: 40px;
+  margin-right: 100px;
+}
+.menu
+{
+  padding: 0;
+  margin: 0;
+  display: block;
+
+}
+.menu li
+{
+  width: auto;
+  list-style: none;
+  float: left;
+  display: block;
+  margin-right: 40px;
+  font-size: 15px;
+  position: relative;
+}
+
+
+
+.menu li a
+{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monseratVAR;
+  
+}
+
+.menu li a:hover
+{
+  opacity: 1;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu > ul li
+{
+  position: relative;
+  
+}
+
+.menu li ul
+{
+  position: absolute;
+  min-width: 100px;
+  display: none;
+  
+}
+.menu li:hover > ul
+{
+  display: block;
+}
+
+
+
+.sign
+{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+.slider-fon
+{
+  background: red;
+  width: 1600px;
+  height: 500px;
+}
+.callback
+{
+  margin-left: 200px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  padding-bottom: 10px;
+  font-family: monseratVAR;
+  border-radius: 100px;
+  background-color: #fff;
+  padding: 13px 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.callback:hover
+{
+  opacity: 1;
+  color: red;
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+.sign
+{
+margin-left: 100px;
+color: #fff;
+text-decoration: none;
+font-family: monseratVAR;
+}
+
+
+.sign:hover
+{
+  opacity: 1;
+  color: red;
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+.catalog-main
+{
+  width: 1600px;
+  height: 1000px;
+  background: red;
+}
+.catalog-block
+{
+  width: 1400px;
+  height: 900px;
+  background: blue;
+}
+.fitnes_block{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 100px 0px 100px;
+}
+h4{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.card
+{
+  width: 220px;
+  height: 300px;
+  background-color: #007CB1;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+article img{ 
+  width: 90%;
+}
+.card:hover
+{
+  background: #fff;
+  color: black;
+}
+
+
+.card-name
+{
+  font-size: 17px;
+  margin-top: 25px; 
+  text-decoration: none;
+  display: flex;
+}
+
+
+
+.card-price
+{
+  font-size: 15px;
+  margin: 10px 0  10px;
+  display: flex;
+}
+
+
+.card-curency
+{
+  font-size: 15px;
+}
+
+.card-btn
+{
+  border: none;
+  cursor: pointer;
+  background-color: #02a717;
+  padding: 15px 20px;
+  width: 200px;
+  height: 40px;
+  color: inherit;
+  text-transform: inherit;
+  font-size: 13px;
+}
+
+.card-btn:hover
+{
+  background: blue;
+  color: #fff;
+}
+
+.catalog
+{
+  display: flex;
+  width: 1200px;
+  padding-top:50px; 
+  display: flex;
+  flex-wrap: wrap;
+ 
+  
+}
+
+.catalog a
+{
+  text-decoration: none;
+}
+.catalog-name
+{
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 130px;
+ font-family: monseratVAR;
+}
+.catalog-title{
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 30px;
+ font-family: monseratVAR;
+}
+@font-face
+{
+  
+   src: url(../fonts/Montserrat-It.ttf);
+   font-family: "monseratIT";
+}
+
+@font-face
+{
+  
+   src: url(../fonts/Montserrat-Var.ttf);
+   font-family: "monseratVAR";
+}

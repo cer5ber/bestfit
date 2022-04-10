@@ -1,0 +1,590 @@
+*
+{
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.submit_product:hover
+{
+  color: red;
+  transition: 0.2s ease-out;
+  transform: scale(1.01);
+}
+.element
+{
+  width: 400px;
+  height: 30px;
+}
+.add_title
+{
+  font-size: 25px;
+  font-family: notosansR;
+}
+.img_tovar
+{
+  font-size: 20px;
+  font-family: ralewayR;
+}
+.order__button:hover
+{
+ 
+  transition: 0.2s ease-out;
+  transform: scale(1.01);
+  color:#ef3249;
+}
+.order__button a:hover
+{
+  color: #ef3249;
+}
+ 
+ .catalog-href
+{
+  text-decoration:none; 
+}
+.order__button 
+{
+  font-size: 25px;
+  font-family: ralewayR;
+  border-radius: 8px;
+  background: #fff;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  color: #000;
+}
+
+.order__button a
+{
+  text-decoration:none;
+  color: #000;
+}
+.order__product
+{
+  font-size: 25px;
+  font-family: ralewayR;
+}
+
+.order__price
+{
+  font-size: 25px;
+  font-family: ralewayR;
+}
+.order__row
+{
+  font-size: 25px;
+  font-family: ralewayR;
+  display: flex;
+  margin-right: 10px;
+  padding-right: 250px;
+  padding-left: 250px;
+ 
+}
+
+.pustoi
+{
+ 
+  margin-left: 100px;
+  color: red;
+  border: 2px blue solid;
+}
+
+.profile_login
+{
+  font-size: 20px;
+  font-family: notosansB;
+}
+.fio{
+  display: flex;
+  margin-top: 5px;
+  font-size: 25px;
+  color: #fff;
+  font-family: ralewayR;
+}
+.profile_name
+{
+  margin-right: 10px;
+}
+
+.admin-pnl
+{
+  margin-top: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  background: #fff;
+  padding:10px;
+  text-decoration-line: none;
+  color: #000;
+  font-size: 20px;
+  width: 400px;
+  text-align: center;
+  margin-top: 50px;
+}
+.admin-pnl:hover
+{
+
+   opacity: 1;
+  transition: 0.2s ease-out;
+  transform: scale(1.01);
+  color: red;
+}
+
+header
+{
+  background: #1563F1;
+  height: 90px;
+  width: 100%;
+}
+.container
+{
+  width: 1400px;
+  margin: 0 auto;
+}
+.logo
+{
+  float: left;
+  padding-top: 20px;
+}
+
+
+nav {
+  float: right;
+  padding-top: 40px;
+  margin-right: 100px;
+}
+.menu
+{
+  padding: 0;
+  margin: 0;
+  display: block;
+
+}
+.menu li
+{
+  width: auto;
+  list-style: none;
+  float: left;
+  display: block;
+  margin-right: 40px;
+  font-size: 15px;
+  position: relative;
+}
+
+
+
+.menu li a
+{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monseratVAR;
+  
+}
+
+.menu li a:hover
+{
+  opacity: 1;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu > ul li
+{
+  position: relative;
+  
+}
+
+.menu li ul
+{
+  position: absolute;
+  min-width: 100px;
+  display: none;
+  
+}
+.menu li:hover > ul
+{
+  display: block;
+}
+
+.red{
+  color: red;
+  font-family: monseratVAR;
+  position: absolute;
+  text-align: center;
+  width: 410px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.sign
+{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+.slider-fon
+{
+  background: red;
+  width: 1600px;
+  height: 500px;
+}
+.callback
+{
+  margin-left: 200px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  padding-bottom: 10px;
+  font-family: monseratVAR;
+  border-radius: 100px;
+  background-color: #fff;
+  padding: 13px 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.callback:hover
+{
+  opacity: 1;
+  color: red;
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+.sign
+{
+margin-left: 100px;
+color: #fff;
+text-decoration: none;
+font-family: monseratVAR;
+}
+
+
+.sign:hover
+{
+  opacity: 1;
+  color: red;
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+.main
+{
+	height: 100%;
+  padding-bottom: 100px;
+	width: 100%;
+	background: #1551e5;
+	margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.yes-acc{
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: monseratVAR;
+}
+
+
+.form_text
+{
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	align-items: center;
+}
+.delete_block_out
+{
+
+  width: 1600px;
+  height: 100%;
+  display: flex;
+}
+form > input
+{
+	height: 40px;
+	width: 400px;
+	background:#fff;
+	border-radius: 5px;
+	 font-size: 16px;
+	 border: 0px;
+  padding-left: 10px;
+}
+
+.yes-acc a
+{
+  text-decoration: none;
+  color: #fff;
+}
+.yes-acc a:hover
+{
+  color: pink;
+}
+
+.gender
+{
+	width: 20px;
+	height: 20px;
+}
+
+.regg
+{
+  text-align: center;
+  padding-top: 35px;
+  font-family: monseratVAR;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.registr
+{
+  
+  width: 410px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.registr:hover
+{
+  opacity: 1;
+   background: #ef3249;
+  transition: all 0.2s ease-out;
+  transform: scale(1.01);
+}
+
+.card
+{
+  width: 220px;
+ height: 100%;
+  background-color: #00adef;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+
+  letter-spacing: 1px;
+  text-decoration: none;
+  flex-wrap: wrap;
+  margin: 40px;
+  padding-bottom: 20px;
+}
+
+.card-name
+{
+  font-size: 17px;
+  margin-top: 25px; 
+  text-decoration: none;
+  display: flex;
+}
+.delete_btn
+{
+ font-size: 15px;
+ border-radius: 8px;
+ background: #ef3249;
+ font-family: monseratIT;
+ padding: 10px;
+ width: 150px;
+ color: #fff;
+ margin-top: 10px;
+ text-transform: uppercase;
+}
+.delete_btn:hover
+{
+  transition: all 0.2s ease-out;
+  transform: scale(1.05);
+}
+.delete-btn-href
+{
+  text-decoration:none; 
+}
+
+
+footer
+{
+  width: 100%;
+  height: 250px;
+  background: #1563F1;
+}
+
+
+
+.footer-block
+{
+  width: 1200px;
+  display: flex;
+  float: left;
+}
+
+.footer-item
+{
+  display: flex;
+  padding-right: 400px;
+}
+
+.footer-list
+{
+  display:block;
+}
+.footer-list li
+{
+margin-bottom: 20px;
+list-style: none;
+}
+
+.footer-list li a
+{
+  text-decoration: none;
+  color: #89a2f8;
+  font-size: 18px;
+  font-family: monseratVAR;
+}
+
+.name-footer
+{
+  font-size: 20px;
+  font-family: monseratVAR;
+  color: #fff;
+}
+
+.footer-number
+{
+  font-size: 22px;
+  color: black;
+}
+
+.corpyright
+{
+  font-size: 15px;
+  color: #89a2f8;
+  text-align: center;
+  padding-top: 230px;
+}
+.delete_title{
+  width: 700px;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: monseratVAR;
+}
+.delete_tit{
+  width: 700px;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: monseratVAR;
+}
+
+article img{ 
+  width: 90%;
+}
+.card:hover
+{
+  transform: scale(1.01);
+}
+
+
+.card-name
+{
+ display: block;
+ font-size: 20px;
+ font-family: ralewayB;
+ color: #000; 
+}
+
+.brand-name
+{
+font-size: 15px;
+margin-top: 10px;
+font-family: monseratIT;
+color: #000;
+
+}
+.card-price
+{
+  display:inline-flex;
+  font-size: 18px;
+  color:#fff;
+  margin-top: 5px;
+}
+.rub
+{
+  margin-left: 7px;
+  font-size: 18px;
+
+}
+.good_img{
+  width: 80%;
+}
+
+.card-curency
+{
+  font-size: 15px;
+}
+
+
+
+
+.delete_block_out{
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
+.cart_block_out{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart_count{
+  width: 700px;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+@font-face
+{
+  
+   src: url(../fonts/Montserrat-It.ttf);
+   font-family: "monseratIT";
+}
+
+@font-face
+{
+  
+   src: url(../fonts/Montserrat-Var.ttf);
+   font-family: "monseratVAR";
+}
+
+@font-face
+{
+  
+   src: url(../fonts/NotoSans-B.ttf);
+   font-family: "notosansB";
+}
+@font-face
+{
+  
+   src: url(../fonts/NotoSans-R.ttf);
+   font-family: "notosansR";
+}
+
+
+@font-face
+{
+  
+   src: url(../fonts/Raleway-B.ttf);
+   font-family: "ralewayB";
+}
+
+@font-face
+{
+  
+   src: url(../fonts/Raleway-R.ttf);
+   font-family: "ralewayR";
+}

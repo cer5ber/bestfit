@@ -1,0 +1,302 @@
+*
+{
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+header
+{
+  background: #1563F1;
+  height: 90px;
+  width: 100%;
+}
+.container
+{
+  width: 1400px;
+  margin: 0 auto;
+}
+.logo
+{
+  float: left;
+  padding-top: 20px;
+}
+
+
+nav {
+  float: right;
+  padding-top: 40px;
+  margin-right: 100px;
+}
+.menu
+{
+  padding: 0;
+  margin: 0;
+  display: block;
+
+}
+.menu li
+{
+  width: auto;
+  list-style: none;
+  float: left;
+  display: block;
+  margin-right: 40px;
+  font-size: 15px;
+  position: relative;
+}
+
+
+
+.menu li a
+{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monseratVAR;
+  
+}
+
+.menu li a:hover
+{
+  opacity: 1;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu > ul li
+{
+  position: relative;
+  
+}
+
+.menu li ul
+{
+  position: absolute;
+  min-width: 100px;
+  display: none;
+  
+}
+.menu li:hover > ul
+{
+  display: block;
+}
+
+.red{
+  color: red;
+  font-family: monseratVAR;
+  position: absolute;
+  text-align: center;
+  width: 410px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.not-acc 
+{
+  font-size: 20px;
+  margin-left: -20px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: monseratVAR;
+}
+.registratura
+{
+  text-decoration:none;
+  color: #fff;
+}
+.registratura:hover
+{
+  color:pink;
+}
+.sign
+{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+.slider-fon
+{
+  background: red;
+  width: 100%;
+  height: 500px;
+}
+.callback
+{
+  margin-left: 200px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  padding-bottom: 10px;
+  font-family: monseratVAR;
+  border-radius: 100px;
+  background-color: #fff;
+  padding: 13px 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.callback:hover
+{
+  opacity: 1;
+  color: red;
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+.sign
+{
+margin-left: 100px;
+color: #fff;
+text-decoration: none;
+font-family: monseratVAR;
+}
+
+
+.sign:hover
+{
+  opacity: 1;
+  color: red;
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+
+}
+
+.forma
+{
+  height: 500px;
+  width: 500px;
+  background: #1563F1;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+
+.form_text
+{
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  align-items: center;
+}
+.voiti
+{
+  margin-top: 20px;
+  width: 410px;
+  margin-bottom: 15px;
+}
+.voiti:hover
+{
+   opacity: 1;
+   background: #ef3249;
+  transition: all 0.2s ease-out;
+  transform: scale(1.01);
+}
+
+form > input
+{
+  height: 40px;
+  width: 400px;
+  background:#fff;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 0px;
+  padding-left: 10px;
+
+}
+
+form
+{
+  margin-left:  50px;
+}
+
+.regg
+{
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 30px;
+
+}
+
+footer
+{
+  width: 100%;
+  height: 250px;
+  background: #1563F1;
+}
+
+
+
+.footer-block
+{
+  width: 1200px;
+  display: flex;
+  float: left;
+
+}
+
+.footer-item
+{
+  display: flex;
+}
+
+.footer-list
+{
+  display:block;
+}
+.footer-list li
+{
+margin-bottom: 20px;
+list-style: none;
+}
+
+.footer-list li a
+{
+  text-decoration: none;
+  color: #89a2f8;
+  font-size: 18px;
+  font-family: monseratVAR;
+}
+
+.name-footer
+{
+  font-size: 20px;
+  font-family: monseratVAR;
+  color: #fff;
+}
+
+.footer-number
+{
+  font-size: 22px;
+  color: black;
+}
+
+.corpyright
+{
+  font-size: 15px;
+  color: #89a2f8;
+  text-align: center;
+  padding-top: 230px;
+}
+
+
+
+
+
+
+
+
+
+@font-face
+{
+  
+   src: url(../fonts/Montserrat-It.ttf);
+   font-family: "monseratIT";
+}
+
+@font-face
+{
+  
+   src: url(../fonts/Montserrat-Var.ttf);
+   font-family: "monseratVAR";
+}

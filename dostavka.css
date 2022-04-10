@@ -1,0 +1,329 @@
+*
+{
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+
+header
+{
+  background: #1563F1;
+  height: 90px;
+  width: 100%;
+}
+.container
+{
+  width: 1400px;
+  margin: 0 auto;
+}
+.logo
+{
+  float: left;
+  padding-top: 20px;
+}
+
+
+nav {
+  float: right;
+  padding-top: 40px;
+  margin-right: 100px;
+}
+.menu
+{
+  padding: 0;
+  margin: 0;
+  display: block;
+
+}
+.menu li
+{
+  width: auto;
+  list-style: none;
+  float: left;
+  display: block;
+  margin-right: 40px;
+  font-size: 15px;
+  position: relative;
+}
+
+
+
+.menu li a
+{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monseratVAR;
+  
+}
+.hover-a  li a
+{
+  color: #000;
+}
+
+.menu li a:hover
+{
+  opacity: 1;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu > ul li
+{
+  position: relative;
+  
+}
+
+.menu li ul
+{
+  position: absolute;
+  min-width: 100px;
+  display: none;
+  
+}
+.menu li:hover > ul
+{
+  display: block;
+}
+
+
+
+.sign
+{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+
+.sign:hover
+{
+  opacity: 1;
+  color: red;
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+
+}
+.container
+{
+  width: 1400px;
+  margin: 0 auto;
+ 
+}
+
+.callback
+{
+  margin-left: 200px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  padding-bottom: 10px;
+  font-family: monseratVAR;
+  border-radius: 100px;
+  background-color: #fff;
+  padding: 13px 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.callback:hover
+{
+  opacity: 1;
+  color: red;
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+.sign
+{
+margin-left: 100px;
+color: #fff;
+text-decoration: none;
+font-family: monseratVAR;
+}
+
+
+.sign:hover
+{
+  opacity: 1;
+  color: red;
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+.dostavka
+{
+  width: 100%;
+}
+
+.container2
+{
+  width: 1400px;
+  margin-bottom: 100px;
+}
+
+.href
+{
+  width: 200px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-right: 1200px;
+  background: #fff;
+  border: 2px #ef3249 solid;
+  border-radius: 10px;
+  display: flex;
+}
+.href a
+{
+  font-size: 20px;
+  color: black;
+}
+.dostavka-tittle
+{
+  font-size: 40px;
+  padding-top: 50px;
+  font-family: monseratVAR;
+  padding-bottom: 35px;
+  text-transform: uppercase;
+
+}
+.text1
+{
+  font-size: 20px;
+  font-family:monseratVAR;
+
+}
+
+span
+{
+  font-size: 25px;
+}
+.text2
+{
+  margin-top: 30px;
+ font-size: 20px;
+   font-family:monseratVAR;
+
+}
+.text3
+{
+  margin-top: 30px;
+  font-size: 20px;
+    font-family:monseratVAR;
+
+}
+
+.text4
+{
+  margin-top: 30px;
+  font-size: 20px;
+    font-family:monseratVAR;
+
+}
+
+footer
+{
+  width: 100%;
+  height: 250px;
+  background: #0e42c1;
+
+}
+
+
+
+.footer-block
+{
+  width: 1200px;
+  display: flex;
+  float: left;
+
+}
+
+.footer-item
+{
+  display: flex;
+  padding-right:400px;
+}
+
+.footer-list
+{
+  display:block;
+
+
+}
+.footer-list li
+{
+margin-bottom: 20px;
+list-style: none;
+
+}
+
+.footer-list li a
+{
+  text-decoration: none;
+  color: #89a2f8;
+  font-size: 18px;
+  font-family: monseratVAR;
+}
+
+.name-footer
+{
+  font-size: 20px;
+  font-family: monseratVAR;
+  color: #fff;
+}
+
+.footer-number
+{
+  font-size: 22px;
+  color: black;
+}
+
+.corpyright
+{
+  font-size: 15px;
+  color: #89a2f8;
+  text-align: center;
+  padding-top: 230px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face
+{
+  
+   src: url(../fonts/Montserrat-It.ttf);
+   font-family: "monseratIT";
+}
+
+@font-face
+{
+  
+   src: url(../fonts/Montserrat-Var.ttf);
+   font-family: "monseratVAR";
+}
